@@ -1,0 +1,91 @@
+.header {
+	align-items: center;
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-color: brown;
+	text-decoration-thickness: 30%;
+	font-size: 250%;
+	font-family: 'Black Ops One';
+	animation-name:text-focus-in;
+	animation-duration: 4s;
+}
+
+@font-face {
+	font-family: 'Anton';
+	src: url(http://benheymann.de/7pWy8Hf4eaqd25qpnSSrBWnZGL5XDWe6dbJYSEp/files/Anton-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'StalinistOne';
+	src: url(fonts/StalinistOne-Regular.ttf);
+}
+
+.text {
+	font-family: 'Anton';
+	font-size: 170%;
+	line-height: 0.5;
+	text-align: center;
+}
+
+.nav {
+	text-align: center;
+	font-family: Anton;
+	list-style-type: none;
+	margin: 10;
+ 	padding: 10;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    width: 600px;
+    background-color: #A4A4A4;
+}
+
+.sending {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	height: 250px;
+	width: 299px;
+	animation-name:roll-in-left;
+	animation-duration: 4s;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid red;
+  border-radius: 4px;
+  background-color: lightblue;
+  color: black;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+	animation-name:roll-in-left;
+	animation-duration: 4s;
+}
+
+body {
+ background-color: lightblue;
+ background-image: url("https://cdn.pixabay.com/photo/2016/04/20/19/47/wolf-1341881_960_720.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.button:hover {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
