@@ -1,6 +1,6 @@
 function messagesend() {
     var request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/802632826117554192/8hilqRcgMtZHwcGQhdm71XJwmg0Wezz4Nufa2GSx7XJ_dJNHtd3hqFQs2IfurLxPqQx5");
+    request.open("POST", "https://discord.com/api/webhooks/1266882221248348181/CayBnsJef3cck0iV-mjoLoJyi8TVZYxPUNwDmnyjaTrnUv2kGpFf4p1l7E9WWjXl4SSl");
 
     var user12 = document.getElementById("usename").value
     var msg = document.getElementById("message").value
